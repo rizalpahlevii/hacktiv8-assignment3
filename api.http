@@ -1,0 +1,13 @@
+### Get weather
+GET http://localhost:8080/weather
+Accept: application/json
+
+### Update weather
+PUT http://localhost:8080/weather
+Accept: application/json
+Content-Type: application/json
+
+{
+  "wind": 10,
+  "water": 10
+}
